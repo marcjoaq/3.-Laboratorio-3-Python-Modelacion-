@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="Logo">
+    <file>logo.png</file>
+  </qresource>
+  <qresource prefix="prefijoNuevo">
+    <file>logo.qrc</file>
+  </qresource>
+</RCC>

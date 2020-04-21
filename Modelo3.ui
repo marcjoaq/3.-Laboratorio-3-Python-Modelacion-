@@ -1,0 +1,1584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>710</width>
+    <height>578</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>693</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="Titulo1">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>70</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Permanent Marker</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background-color: rgb(85, 170, 0);</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt; color:#ffffff;&quot;&gt;Salud y Ejercicio&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="fondoVe">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>70</y>
+      <width>501</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(85, 170, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="fondegris">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>160</y>
+      <width>451</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(59, 59, 59);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Titulo2">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>160</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins Light</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(59, 59, 59);</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-style:italic; color:#ffffff;&quot;&gt;Introduce tus datos&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="Edadcomb">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>220</y>
+      <width>69</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins Light</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-color: rgb(59, 59, 59);</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Edad</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>7</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>8</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>10</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>11</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>12</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>13</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>14</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>15</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>16</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>17</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>18</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>19</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>20</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>21</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>22</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>23</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>24</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>25</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>26</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>27</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>28</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>29</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>30</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>31</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>32</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>33</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>34</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>35</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>36</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>37</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>38</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>39</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>40</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>41</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>42</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>43</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>44</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>45</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>46</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>47</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>48</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>49</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>50</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>51</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>52</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>53</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>54</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>55</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>56</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>57</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>58</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>59</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>60</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>61</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>62</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>63</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>64</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>65</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>66</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>67</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>68</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>69</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>70</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>71</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>72</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>73</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>74</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>75</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>76</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>77</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>78</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>79</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>80</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>81</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>82</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>83</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>84</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>85</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>86</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>87</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>88</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>89</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>90</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>91</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>92</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>93</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>94</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>95</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>96</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>97</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>98</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>99</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>100</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="Pesocomb">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>220</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins Light</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-color: rgb(59, 59, 59);</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Peso(Kg)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>50</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>51</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>52</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>53</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>54</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>55</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>56</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>57</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>58</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>59</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>60</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>61</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>62</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>63</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>64</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>65</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>66</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>67</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>68</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>69</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>70</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>71</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>72</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>73</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>74</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>75</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>76</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>77</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>78</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>79</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>80</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>81</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>82</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>83</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>84</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>85</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>86</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>87</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>88</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>89</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>90</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>91</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>92</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>93</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>94</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>95</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>96</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>97</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>98</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>99</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>100</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="Altcomb">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>220</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins Light</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-color: rgb(59, 59, 59);</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Altura(m)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.50</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.51</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.52</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.53</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.54</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.55</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.56</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.57</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.58</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.59</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.60</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.61</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.62</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.63</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.64</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.65</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.66</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.67</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.68</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.69</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.70</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.71</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.72</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.73</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.74</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.75</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.76</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.77</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.78</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.79</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.80</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.81</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.82</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.83</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.84</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.85</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.86</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.87</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.88</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.89</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.90</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.91</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.92</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.93</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.94</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.95</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.96</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.97</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.98</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1.99</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2.00</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="Titulo3">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>190</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins Light</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic; color:#363636;&quot;&gt;Nivel de Actividad&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Resultado1">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>350</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="CalcularBo">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>270</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins Light</family>
+      <pointsize>10</pointsize>
+      <italic>false</italic>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(59, 59, 59);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>CALCULAR</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Resultado2">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>350</y>
+      <width>291</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Resultado1_2">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>410</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Resultado2_2">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>410</y>
+      <width>291</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Resultado1_3">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>470</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Resultado2_3">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>470</y>
+      <width>291</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Titulo3_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>350</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins Light</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic; color:#363636;&quot;&gt;Masa Corporal&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Titulo3_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>410</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins Light</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic; color:#363636;&quot;&gt;Calorias Diarias&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Titulo3_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>470</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins Light</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic; color:#363636;&quot;&gt;Ejercicio&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="GenBox">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>220</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins Light</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-color: rgb(59, 59, 59);</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Genero</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>M</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>F</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="ActBox">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>220</y>
+      <width>141</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins Light</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-color: rgb(59, 59, 59);</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Actividad</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sedentario</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ligera</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Moderada</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Activo</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>340</y>
+      <width>16</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>340</y>
+      <width>16</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>0</y>
+      <width>291</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/Logo/logo.png);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Titulo2_2">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>560</y>
+      <width>481</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins Light</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:7pt; color:#646464;&quot;&gt;Modelacion y Simulacion 5ª Semestre | UVG | Marcos Joaquin de la Cruz Hernandez &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <zorder>Titulo2_2</zorder>
+   <zorder>label</zorder>
+   <zorder>line</zorder>
+   <zorder>fondoVe</zorder>
+   <zorder>Titulo1</zorder>
+   <zorder>fondegris</zorder>
+   <zorder>Titulo2</zorder>
+   <zorder>Edadcomb</zorder>
+   <zorder>Pesocomb</zorder>
+   <zorder>Altcomb</zorder>
+   <zorder>Titulo3</zorder>
+   <zorder>Resultado1</zorder>
+   <zorder>CalcularBo</zorder>
+   <zorder>Resultado2</zorder>
+   <zorder>Resultado1_2</zorder>
+   <zorder>Resultado2_2</zorder>
+   <zorder>Resultado1_3</zorder>
+   <zorder>Resultado2_3</zorder>
+   <zorder>Titulo3_2</zorder>
+   <zorder>Titulo3_3</zorder>
+   <zorder>Titulo3_4</zorder>
+   <zorder>GenBox</zorder>
+   <zorder>ActBox</zorder>
+   <zorder>line_2</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="logo.qrc"/>
+ </resources>
+ <connections/>
+</ui>
